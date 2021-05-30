@@ -6,7 +6,15 @@
 <!-- This part is always displayed -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#/">Infections DB</a>
+		<a class="navbar-brand" href="#/"
+			><img
+				src="favicon.png"
+				alt=""
+				width="30"
+				height="24"
+				class="d-inline-block align-text-top"
+			/></a
+		>
 		<button
 			class="navbar-toggler"
 			type="button"
@@ -18,6 +26,7 @@
 		>
 			<span class="navbar-toggler-icon" />
 		</button>
+
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 				<li class="nav-item">
