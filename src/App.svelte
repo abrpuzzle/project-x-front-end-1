@@ -30,7 +30,37 @@
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="#/demo">Demo</a>
+					<a class="nav-link" href="#/tourists/Tourists">Tourists</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link dropdown-toggle"
+						href="#/"
+						id="navbarDropdownMenuLink"
+						role="button"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+					>
+						Trips
+					</a>
+					<ul
+						class="dropdown-menu"
+						aria-labelledby="navbarDropdownMenuLink"
+					>
+						<li>
+							<a class="dropdown-item" href="#/Trips">Trips</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#/Routes">Routes</a>
+						</li>
+						<li>
+							<a
+								class="dropdown-item"
+								href="#/Points_of_Interests"
+								>Points of Interest</a
+							>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</div>
